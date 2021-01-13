@@ -50,18 +50,19 @@ class Info extends PureComponent {
       <section ref={this.view} className={`info ${this.getStyle(this.props.show)}`} aria-hidden={true}>
         <Close ref={this.close} onCloseClick={this.onInfoClose} />
         <h1>About</h1>
-        <p>PWA Weather Application made with React/Scss/ES6</p>
+        <p>2day-Weather (Today Weather)</p>
         <p>This is a personal project built in my spare time for learning purposes.</p>
-        <h2>APIs</h2>
+        <h2>Follow me on </h2>
         <ul>
-          <li><a className="link" href="https://www.ipify.org" target="_blank" rel="noopener noreferrer">Ipify (ip address)</a></li>
-          <li><a className="link" href="https://ipstack.com" target="_blank" rel="noopener noreferrer">IpStack (ip based geolocation)</a></li>
-          <li><a className="link" href="https://darksky.net" target="_blank" rel="noopener noreferrer">DarkSky (weather forecasting)</a></li>
-          <li><a className="link" href="https://opencagedata.com/" target="_blank" rel="noopener noreferrer">OpenCage (reverse geolocation)</a></li>
+          <li><a className="link" href="https://twitter.com/iamsatyanchal" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a className="link" href="https://www.instagram.com/iamsatyanchal/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a className="link" href="https://www.linkedin.com/in/satyanchalchaudhary/" target="_blank" rel="noopener noreferrer">LinikedIn</a></li>
+          <li><a className="link" href="https://github.com/Bluehatcoders/" target="_blank" rel="noopener noreferrer">Github</a></li>
         </ul>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/iondrimba/react-weather-app" className="github" title="Github">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bluehatcoders/" className="github" title="Github">
           <img src={svg} alt="Github icon" width="32" height="32" />
         </a>
+<p>Thanks for using this app ❤</p>
       </section>
     </Fragment>
   }
