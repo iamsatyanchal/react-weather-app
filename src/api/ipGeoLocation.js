@@ -1,6 +1,6 @@
 class IpGeoLocation {
   constructor(secret) {
-    this.endpoint = ip => `https://weather-api-nodejs.herokuapp.com/api/ip?ip=${ip}`;
+    this.endpoint = ip => `https://cors-anywhere.herokuapp.com/https://weather-api-nodejs.herokuapp.com/api/ip?ip=${ip}`;
     this.data = null;
     this.secret = secret;
   }
