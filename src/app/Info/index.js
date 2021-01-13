@@ -62,7 +62,7 @@ class Info extends PureComponent {
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bluehatcoders/" className="github" title="Github">
           <img src={svg} alt="Github icon" width="32" height="32" />
         </a>
-<p style="text-align: center;">Thanks for using this app</p>
+<p className="github">Thanks for using this app</p>
       </section>
     </Fragment>
   }
