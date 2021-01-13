@@ -1,6 +1,6 @@
 class ReverseGeoLocation {
   constructor() {
-    this.endpoint = (latitude, longitude) => `https://weather-api-nodejs.herokuapp.com/api/geolocation?latitude=${latitude}&longitude=${longitude}`;
+    this.endpoint = (latitude, longitude) => `https://focused-brattain-db79bf.netlify.app/https://weather-api-nodejs.herokuapp.com/api/geolocation?latitude=${latitude}&longitude=${longitude}`;
     this.data = null;
   }
 
